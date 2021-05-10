@@ -23,6 +23,7 @@ function quickSort(theArray) {
 					}
 				}
 				for(;right>left;left++){
+					console.log(left, right)
 					if(theArray[left]>keyVal){
 						theArray[right]=theArray[left];
 						right--;
